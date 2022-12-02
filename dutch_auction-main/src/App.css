@@ -1,0 +1,138 @@
+.app {
+    background: var(--background);
+}
+
+.logo {
+    height: 80px;
+    width: 200px;
+    pointer-events: none;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #eee;
+    background-color: var(--background);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 100px; */
+    width: 100vw;
+    padding-top: 1rem;
+    background-color: var(--background);
+}
+
+.Auctions {
+    padding-top: 100px;
+    padding-bottom: 173px;
+}
+
+.HappeningNow {
+    padding-top: 100px;
+}
+
+.colors {
+    color: var(--primary);
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    padding: 0 1rem;
+}
+
+.nav-menu a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+/* CSS */
+.button-36 {
+    background-image: linear-gradient(
+        92.88deg,
+        #455eb5 9.16%,
+        #5643cc 43.89%,
+        #673fd7 64.72%
+    );
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-36:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: 0.1s;
+}
+
+@media screen and (max-width: 1000px) {
+    .hamburger {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-menu {
+        position: absolute;
+        flex-direction: column;
+        justify-content: start;
+        top: 100px;
+        right: -100%;
+        width: 25%;
+        height: 25vh;
+        transition: 0.4s;
+        z-index: 2;
+        background: var(--background);
+        border-left: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        border-radius: 10px;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-menu li {
+        padding: 1rem;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-menu a {
+        font-size: 1.2rem;
+    }
+
+    .button-36 {
+        padding: 0 2.6rem;
+        margin-right: 50px;
+    }
+}

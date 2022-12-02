@@ -1,0 +1,14 @@
+.logWindow {
+  height: 200px !important;
+  /* justify-content: center;
+    align-items: center;  */
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.listGroup {
+  max-height: 200px;
+  width: auto;
+  overflow-y: auto;
+  text-align: center;
+}

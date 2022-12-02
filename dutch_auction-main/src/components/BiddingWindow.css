@@ -1,0 +1,9 @@
+.buttonRow {
+  padding-top: 10px;
+  align-items: center;
+}
+
+.buttonCol {
+  justify-content: end;
+  display: flex;
+}

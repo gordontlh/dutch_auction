@@ -1,0 +1,77 @@
+{
+  "name": "dutch-auction",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "react-scripts test",
+    "reentrancy": "npx hardhat test reentrancy/ReentrancyTest.js",
+    "startNode": "npx hardhat node",
+    "start": "npx hardhat run --network localhost scripts/deploy.js && react-scripts start",
+    "new" : "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "clean": "rmdir /s node_modules",
+    "reinstall": "npm run clean && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@openzeppelin/hardhat-upgrades": "^1.20.0",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^9.1.0",
+    "hardhat": "^2.11.2",
+    "hardhat-gas-reporter": "^1.0.8",
+    "mocha": "^10.0.0",
+    "solidity-coverage": "^0.8.2",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.2",
+    "chai": "^4.3.6",
+    "chart.js": "^3.9.1",
+    "ethers": "^5.7.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.3.1",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.8.0"
+  },
+  "private": true,
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

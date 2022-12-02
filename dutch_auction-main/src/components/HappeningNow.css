@@ -1,0 +1,17 @@
+.happeningNow {
+  display: grid;
+  margin: 4rem auto;
+  justify-items: center;
+  align-items: center;
+  padding: 1rem;
+  background: var(--primary) !important;
+  color: #fff;
+}
+
+.time {
+  justify-content: end;
+}
+
+.withdraw {
+  display: grid;
+}

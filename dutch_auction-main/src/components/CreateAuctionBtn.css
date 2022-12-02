@@ -1,0 +1,17 @@
+/* input:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+    accent-color: gold;
+} */
+
+/* input:invalid {
+    border: 2px solid red;
+}
+
+input:invalid + span::after {
+    content: "Enter a date in the future";
+    color: red;
+} */
+

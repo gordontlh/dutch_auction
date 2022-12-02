@@ -1,0 +1,89 @@
+await auction1.getState()
+await auction1.startVote()
+auction1.startVote()
+  const auction1 = await Auction.attach(auction)
+const Auction = await ethers.getContractFactory('Auction');
+const auction = await auctionFactory.createAuction("token", "tkn", 10, 10, 1, 2)
+    const auctionFactory = await AuctionFactory.attach('0x0165878A594ca255338adfa4d48449f69242Eb8F')
+const AuctionFactory = await ethers.getContractFactory('AuctionFactory');
+await auctionFactory.createAuction("token", "tkn", 10, 10, 1, 2)
+module
+await auctionFactory.createAuction(await auctionFactory.createAuction("token", "tkn", 10, 10, 1, 2)
+a
+await auctionFactory.createAuction(await auctionFactory.createAuction("token", "tkn", 10, 10, 1, 2)
+const auctions2 = await auctionFactory.getAuctions()
+const auctions = await auctionFactory.getAuctions()
+auctions[0]
+const auctions = await auctionFactory.getAuctions
+await auctionFactory.getAuctions
+auctionFactory.getAuctions
+console.log(auction)
+const supply2 = await auction1.getTokenSupply()
+const supply1 = await auction1.getTokenSupply()
+const supply1 = await  auction.getTokenSupply()
+const supply = auction1.getTokenSupply()
+const state = auction1.getTokenSupply()
+const state = auction1.getState()
+auction1.getState()
+await auction1.getState()
+auction1.getState()
+    const auction1 = await Auction.attach(auction)
+const Auction = await ethers.getContractFactory('Auction');
+const auction = await auctionFactory.createAuction("token", "tkn", 10, 10, 1, 2)
+    const auctionFactory = await AuctionFactory.attach('0x0165878A594ca255338adfa4d48449f69242Eb8F')
+const AuctionFactory = await ethers.getContractFactory('AuctionFactory');
+auctions1.length
+const auctions1 = await auctionFactory.auctions
+const auctions = await auctionFactory.auctions
+const auctions = await auctionFactory.getAuctions()
+    const auction = await auctionFactory.createAuction("token", "tkn", 10, 10, 1, 2)
+    const auctionFactory = await AuctionFactory.attach('0x0165878A594ca255338adfa4d48449f69242Eb8F')
+ const AuctionFactory = await ethers.getContractFactory('AuctionFactory');
+auction
+const auction3 = await Auction.attach(auctions[0])
+const price1 = await auction1.getPrice()
+const price = await auction1.getPrice()
+auction1.getPrice()
+const auction1 = await Auction.attach(auction)
+const Auction = await ethers.getContractFactory('Auction');
+auctions.length
+auctions[1]
+console.log(auctions[0])
+)
+console.log(auctions[0]
+auctions[0]
+const auctions = await auctionFactory.getAuctions
+auctionFactory.getAuctions
+auctionFactory.getAuctions()
+auctionFactory.getAuctions
+    const auction = await auctionFactory.createAuction("token", "tkn", 10, 10, 1, 2)
+    const auctionFactory = await AuctionFactory.attach('0x5FC8d32690cc91D4c39d9d3abcBD16989F875707')
+const AuctionFactory = await ethers.getContractFactory('AuctionFactory');
+const auctions = await auctionFactory.getAuctions()
+const auction = await auctionFactory.createAuction("token", "tkn", 10, 10, 1, 2)
+    const auctionFactory = await AuctionFactory.attach('0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9')
+const AuctionFactory = await ethers.getContractFactory('AuctionFactory');
+exit
+const auctions5  = await auctionfactory3.getAuctions()
+const auctions4  = await auctionfactory.getAuctions()
+const auctions3  = await auctionfactory.getAuctions()
+const auctions2 = await auctionfactory.getAuctions()
+const auctions2 = auctionfactory.getAuctions()
+const auctions = auctionfactory.getAuctions()
+const price = auction2.getPrice()
+const auction2 = await auctionfactory3.createAuction("token", "tkn", 10, 10, 1, 2)
+const auction1 = auctionfactory3.createAuction("token", "tkn", 10, 10, 1, 2)
+ const auctions = auctionfactory3.getAuctions();
+const auctionfactory3 = await AuctionFactory.attach('0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9')
+const auctionfactory2 = await AuctionFactory.attach('0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9')
+const AuctionFactory = await ethers.getContractFactory("AuctionFactory");
+const auctionfactory2 = await AuctionFactory.attach('0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9')
+const auctionfactory = await AuctionFactory.attach('0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9')
+const auctionfactory = await Coin.attach('0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9')
+const Coin = await ethers.getContractFactory('ExampleERC20');
+const myContract3 = await ethers.getContractAt("AuctionFactory", "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9");
+const myContract3 = await ethers.getContractAt("AuctionFactory", "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9");
+    const myContract2 = await ethers.getContractAt("AuctionFactory", "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9");
+    const myContract2 = await ethers.getContractAt("AuctionFactory", 0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9);
+const myContract = await  ethers.getContractAt("AuctionFactory", 0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9);
+const myContract = ethers.getContractAt("AuctionFactory", 0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9);
